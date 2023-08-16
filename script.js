@@ -155,6 +155,24 @@ console.log(combined1);
 let another = [...combined1];
 console.log(another);
 
+// iterating an array
+// for of
+let arr = [10,20,30,40,50];
+
+for(let value of arr){
+
+    console.log(value);
+}
+
+// for each loop
+
+let arr1 = arr.forEach(function(num){
+    console.log(num);
+});
+
+
+
+
 
 
 

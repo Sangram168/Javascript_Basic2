@@ -116,6 +116,19 @@ numbers1.splice(2, 1);
 
 console.log(numbers1);
 
+// Emptying an array
+
+let numbers2 = [1,2,3,4,5];
+numbers2.length = [];
+console.log(numbers2);
+
+// second method
+numbers2.splice(0, numbers2.length);
+console.log(numbers2);
+
+
+
+
 
 
 

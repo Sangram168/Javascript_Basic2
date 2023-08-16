@@ -175,6 +175,21 @@ let arr1 = arr.forEach(function(num){
  arr.forEach(num=> console.log(num));
 
 
+ // Joining arrays - The join() method returns an array as a string
+let numbers3 = [10,20,30,40,50];
+let joined = numbers3.join('-');
+console.log(joined);
+
+// split() - The split() method splits a string into an array of substrings.
+
+let state = 'This is the first statement';
+let statement = state.split(' ');
+console.log(statement);
+
+
+
+
+
 
 
 

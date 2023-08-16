@@ -143,6 +143,18 @@ console.log(sliced);
 let sliced1 = marks.slice(2,6);
 console.log(sliced);
 
+// spread operator
+// combined using spread operator
+let first2 = [1,2,3];
+let second2 = [4,5,6];
+let combined1 = [...first,'a', false, ...second, 'b', true];
+console.log(combined1);
+
+// copy 
+
+let another = [...combined1];
+console.log(another);
+
 
 
 

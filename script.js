@@ -103,6 +103,19 @@ let course = courses.find(function(course){
 
 })
 
+// Removing Element
+// end pop()
+// beginning shift()
+// middle splice
+
+let numbers1 = [1,2,3,4,5,6,7];
+
+numbers1.pop();
+numbers1.shift();
+numbers1.splice(2, 1);
+
+console.log(numbers1);
+
 
 
 

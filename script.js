@@ -58,5 +58,12 @@ console.log(date2.getMilliseconds());
 
 console.log(date3.setFullYear(1999));
 
+// Arrays -It is a collection different items
+
+
+
+
+
+
 
 

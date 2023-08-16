@@ -164,7 +164,8 @@ for(let value of arr){
     console.log(value);
 }
 
-// for each loop
+// for each loop - The forEach() method calls a function 
+// for each element in an array
 
 let arr1 = arr.forEach(function(num){
     console.log(num);

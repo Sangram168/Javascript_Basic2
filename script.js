@@ -126,6 +126,27 @@ console.log(numbers2);
 numbers2.splice(0, numbers2.length);
 console.log(numbers2);
 
+// Combining and Slicing Arrays
+
+let first = [1,2,3];
+let second = [4,5,6];
+let combined = first.concat(second);
+console.log(combined);
+
+// slicing - The slice() method returns selected elements in an array, as a new array. 
+let marks = [10,20,30,40,50,60,70,80];
+// let sliced = marks.slice(); // it copy the original array
+// console.log(sliced);
+let sliced = marks.slice(2); // It all element from 2 to last index
+console.log(sliced);
+
+let sliced1 = marks.slice(2,6);
+console.log(sliced);
+
+
+
+
+
 
 
 

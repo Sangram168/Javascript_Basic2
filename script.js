@@ -171,6 +171,8 @@ let arr1 = arr.forEach(function(num){
     console.log(num);
 });
 
+// for each loop using arrow function
+ arr.forEach(num=> console.log(num));
 
 
 

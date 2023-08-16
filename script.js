@@ -32,3 +32,12 @@ let message = 'This is my first Message';
 let words = message.split(' ');
 console.log(words);
 
+// Template literal(Escape Notation)
+// let message1 = "This is \n my first \n  Message";
+// console.log(message1);
+
+let message1 = `This is my 
+first Message for ${lastName}`;
+console.log(message1);
+
+

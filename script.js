@@ -75,6 +75,33 @@ console.log(numbers);
 numbers.splice(2,0,'a','b','c');
 console.log(numbers);
 
+// Searching
+console.log(numbers.indexOf('a'));
+
+// We want to check if a number exists in an array
+if(numbers.indexOf(4) != -1)
+console.log("present");
+
+console.log(numbers.includes(7));
+console.log(numbers.indexOf(4, 2));
+console.log(numbers);
+
+// reference type searching of element using callback function
+// callback function - A callback function is a function passed into another
+// function as an argument,which is then invoked inside the outer function
+// to complete some kind of routine or action
+
+let courses = [
+    {no:1, naam:'Rohit'},
+    {no:2, naam:'Rahul'}
+];
+
+// console.log(courses.includes({no:1, naam:'Rohit'}));
+
+let course = courses.find(function(course){
+    return course.naam === 'Rohit';
+
+})
 
 
 

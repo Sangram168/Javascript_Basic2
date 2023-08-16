@@ -60,6 +60,21 @@ console.log(date3.setFullYear(1999));
 
 // Arrays -It is a collection different items
 
+let numbers = [1,4,5,7];
+console.log(numbers);
+
+// beginning element add
+numbers.unshift(34);
+console.log(numbers);
+
+// end element add
+numbers.push(25);
+console.log(numbers);
+
+// middle
+numbers.splice(2,0,'a','b','c');
+console.log(numbers);
+
 
 
 

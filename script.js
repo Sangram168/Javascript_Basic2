@@ -198,6 +198,19 @@ console.log(statement);
 console.log(sorted1.sort());
 
 
+// filter arrays
+
+let ar = [13,23,-3,-56,12];
+let fil = ar.filter(function(value){
+
+    return value > 0;
+})
+
+console.log(fil);
+
+
+
+
 
 
 

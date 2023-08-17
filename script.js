@@ -219,16 +219,7 @@ let items = num.map(function(value){
 
 console.log(items);
 
-// mapping with objects
 
-let num3 = [2,3,4,5]
-
-let items1 = num3.map(function(val){
-
-    return {value:val}
-});
-
-console.log(items1);
 
 
 

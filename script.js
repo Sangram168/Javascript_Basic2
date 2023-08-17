@@ -208,6 +208,7 @@ let fil = ar.filter(function(value){
 
 console.log(fil);
 
+
 // mapping arrays - map each element of array to something else
 
 let num = [7,8,9,10];
@@ -218,6 +219,17 @@ let items = num.map(function(value){
 })
 
 console.log(items);
+
+// mapping with objects
+
+let num3 = [2,3,4,5]
+
+let items1 = num3.map(function(val){
+
+    return {value:val}
+});
+
+console.log(items1);
 
 
 

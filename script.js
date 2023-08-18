@@ -319,6 +319,25 @@ sum_2(1,2,3,4,5);
 
 // sum_3(1,2,3,4,5);
 
+// Default parameter - allows the users that they can initialize a function with the default 
+// value even if there are no arguments supplied to the function call.
+
+function interest(p,r = 10,y = 10){
+    return p*r*y/100
+}
+
+console.log(interest(10,8));
+console.log(interest(10,undefined,10));
+
+
+function interest(p,r = 10,y = 10){
+    return p*r*y/100
+}
+
+console.log(interest(10,undefined, 8)); // hack it use 8 parameter value
+
+
+
 
 
 

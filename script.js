@@ -247,6 +247,22 @@ function sum(a,b){
 
 console.log(sum(4,5));
 
+// Hoisting - It is process of moving function declaration to the 
+// top of the file
+
+run1();
+function run1(){
+    console.log('running');
+}
+
+// function assignment
+let stand = function walk(){
+    console.log('walking');
+}
+
+stand();
+
+
 
 
 

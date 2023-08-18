@@ -262,6 +262,14 @@ let stand = function walk(){
 
 stand();
 
+// Anonymous function assignment
+
+let stand2 = function(){
+    console.log('working');
+}
+
+stand2();
+
 
 
 

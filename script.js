@@ -270,6 +270,33 @@ let stand2 = function(){
 
 stand2();
 
+function sum2(a, b){
+    return a+b;
+}
+console.log(sum2(1)); // NaN(not a number)
+console.log(sum2()); // NaN
+console.log(sum2(1,2,3,4,5));
+
+// special object argument
+
+function sum3(a,b){
+    console.log(arguments); // It is array like object which save the remaining value
+    return a+b;
+}
+console.log(sum3(1,2,3,4,5,6));
+
+function sum4(a,b){
+    let total = 0;
+    for(let value of arguments)
+    total = total + value;
+   return total;
+}
+
+let ans = sum4(1,2,3,4);
+console.log(ans);
+
+
+
 
 
 

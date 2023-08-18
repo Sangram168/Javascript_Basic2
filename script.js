@@ -407,7 +407,31 @@ catch(e){
 console.log(person2.fullName)
 
 
+// Scope - Scope determines the accessibility of variables, objects, and functions from different parts of the code.
+// let variable scope only in block of code or brackets not outside the brackets
 
+{
+let x = 23;
+console.log(x);
+}
+
+// console.log(x); // not work because of scope of variable
+
+{
+    var a = 5;
+
+}
+
+console.log(a); // access in entire file
+
+
+function walk(){
+    var e = 67;
+    console.log(e);
+}
+walk();
+console.log(e); // not access because its accessible only in function if there is
+               // no function then var variables accessible in whole file
 
 
 

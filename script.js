@@ -376,6 +376,37 @@ person1.fullName = 'Rahul kumar';
 console.log(person1.fullName);
 
 
+// Try and catch - Use the try-catch statement to handle exceptions that might occur during execution of a code block
+
+let person2 = {
+    fName: 'Rohit',
+    lName: 'kumar',
+    get fullName(){
+        return `${person2.fName} ${person2.lName}`
+    },
+
+    set fullName(value){
+        if(typeof value != String){
+            throw new String("You have not sent a string");
+        }
+        parts = value.split(' ');
+        this.fName = parts[0];
+        this.lName = parts[1];
+    }
+};
+
+console.log(person2.fullName);
+
+try{
+person2.fullName = 'true';
+}
+
+catch(e){
+    alert(e);
+}
+console.log(person2.fullName)
+
+
 
 
 

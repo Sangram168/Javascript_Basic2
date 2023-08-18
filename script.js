@@ -295,6 +295,29 @@ function sum4(a,b){
 let ans = sum4(1,2,3,4);
 console.log(ans);
 
+// Rest operator - The rest operator in js allows a function to take
+// an indefinite number of arguments and bundle them in an array
+
+function sum_1(...args){
+
+    console.log(args);
+}
+
+sum_1(1,2,3,4,5);
+
+function sum_2(num,...args){
+
+    console.log(args);
+}
+
+sum_2(1,2,3,4,5);
+
+// function sum_3(...args,num1){ // it will not work because of rest, it print only parameter before rest operator
+
+//     console.log(args);
+// }
+
+// sum_3(1,2,3,4,5);
 
 
 

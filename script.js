@@ -334,7 +334,7 @@ function interest(p,r = 10,y = 10){
     return p*r*y/100
 }
 
-console.log(interest(10,undefined, 8)); // hack it use 8 parameter value
+console.log(interest(10,undefined, 8)); // hack it use 8 parameter value(not a good practice)
 
 
 

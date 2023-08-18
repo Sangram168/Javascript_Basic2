@@ -231,6 +231,22 @@ let items1 = num3.map(function(val){
 
 console.log(items1);
 
+// function - A block of code that fullfil specific task
+
+function run(){
+
+    console.log('running');
+}
+
+run();
+
+function sum(a,b){
+
+    return a+b;
+}
+
+console.log(sum(4,5));
+
 
 
 

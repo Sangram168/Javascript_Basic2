@@ -337,6 +337,47 @@ function interest(p,r = 10,y = 10){
 console.log(interest(10,undefined, 8)); // hack it use 8 as parameter value(not a good practice)
 
 
+// Getter/Setter
+// getter -  getter methods are used to access the properties of an object.
+// setter - The Javascript setter methods are used to change the values of an object.
+
+let person = {
+    fName: 'Mohit',
+    lName: 'Singh',
+};
+
+console.log(person);
+
+// read only
+function fullName() {
+    return `${person.fName} ${person.lName}`
+}
+
+console.log(fullName());
+ 
+
+let person1 = {
+    fName: 'Rohit',
+    lName: 'Kumar',
+    get fullName(){
+
+        return `${person1.fName} ${person1.lName}`;
+    },
+
+    set fullName(value) {
+        let parts = value.split(' ');
+        this.fName = parts[0];
+        this.lName = parts[1];
+    }
+};
+
+console.log(person1.fullName)
+person1.fullName = 'Rahul kumar';
+console.log(person1.fullName);
+
+
+
+
 
 
 

@@ -430,9 +430,32 @@ function walk(){
     console.log(e);
 }
 walk();
-console.log(e); // not access because its accessible only in function if there is
+// console.log(e); // not access because its accessible only in function if there is
                // no function then var variables accessible in whole file
 
+ 
+
+ // Reduce Method - The reduce method execute a reduce function for every
+ // array element. The reduce method return a single value by passing a call back
+ // function on each element of array              
+ let arr_1 = [1,2,3,4]; 
+ let accumulator = 0;             
+let totalSum = arr_1.reduce(function(accumulator, currentValue){
+
+    return accumulator + currentValue;
+});
+
+console.log("Printing Total Sum");
+
+console.log(totalSum);
+
+// with arrow function
+
+let arr_2 = [1,2,3,4];
+let totalSum1 = arr_2.reduce((accumulator, currentValue) => 
+     accumulator + currentValue);
+     
+     console.log(totalSum1);
 
 
 
